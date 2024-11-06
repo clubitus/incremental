@@ -22,17 +22,15 @@
     </div>
     <div class = printers>
       <h1>printers</h1>
-      <button onclick = printMoney()>Print</button>
+      <button onclick = printMoney() id = 'prntBTN'>Print</button>
       <p>Level : <span id='printerLvl'></span></p>
       <p>Ammout : <span id='printerAmt'></span></p>
       <p>Interns : <span id='printerIntern'></span></p>
       <p>Intern Spd : <span id='printerInternSpd'></span></p>
       <button onclick = upgPrntLvl()> Upgrade Level : <span id='printerLvlPrice'></span>$</button>
       <button onclick = upgPrntAmt()> Add Printer : <span id='printerAmtPrice'></span>$</button>
-      <button>Hire Intern : <span id='printerInternPrice'></span>$</button>
-      <button>Energize Intern : <span id='printerInternSpdPrice'></span>$</button>
-      
-    
+      <button onclick = upgPrntInt()>Hire Intern : <span id='printerInternPrice'></span>$</button>
+      <button onclick = upgPrntIntSpd()>Energize Intern : <span id='printerInternSpdPrice'></span>$</button>
     </div>
   </div>
 <script src="main.js"></script>
